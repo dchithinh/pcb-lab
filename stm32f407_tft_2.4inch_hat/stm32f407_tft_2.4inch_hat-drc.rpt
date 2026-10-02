@@ -1,0 +1,45 @@
+** Drc report for stm32f407_tft_2.4inch_hat.kicad_pcb **
+** Created on 2026-10-02T22:07:27 **
+** Report includes: Errors, Warnings **
+
+** Found 7 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.2294 mm, 70.9242 mm): PTH pad 1 [<no net>] of P1
+    @(121.2294 mm, 70.9242 mm): Dimension '54.1576' on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)
+    Local override; error
+    @(175.3094 mm, 70.9242 mm): PTH pad 2 [<no net>] of P2
+    @(121.2294 mm, 70.9242 mm): Dimension '54.1576' on F.Cu
+[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): PCB
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(121.2294 mm, 70.9242 mm): Dimension '54.1576' on F.Cu
+    @(121.2294 mm, 70.9242 mm): PTH pad 1 [<no net>] of P1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(121.2294 mm, 70.9242 mm): Dimension '54.1576' on F.Cu
+    @(175.3094 mm, 70.9242 mm): PTH pad 2 [<no net>] of P2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(121.2694 mm, 67.0742 mm): Reference field of P1
+    @(122.4994 mm, 68.2000 mm): PCB text 'P1' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(172.7594 mm, 67.4742 mm): Reference field of P2
+    @(173.9994 mm, 68.2000 mm): PCB text 'P2' on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
