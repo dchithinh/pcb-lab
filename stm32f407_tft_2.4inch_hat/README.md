@@ -59,9 +59,9 @@ Prefer **I2C2** (e.g. PB10 SCL, PB11 SDA) and **SPI2** (e.g. PB13 SCK, PB15 MOSI
 | LCD_DC | GPIO | D/C |
 | LCD_RST | GPIO | RESET |
 | LCD_LED | GPIO | LED |
-| I2C_SCL | | SCL |
-| I2C_SDA | | SDA |
-| UART_DBG_TX / RX | e.g. PA2 / PA3 | USB–UART |
+| I2C_SCL | PB10 (I2C2) | SCL on both 1×4 headers |
+| I2C_SDA | PB11 (I2C2) | SDA on both 1×4 headers |
+| UART_DBG_TX / RX | PA2 / PA3 (USART2) | UART1 header (MCU TX → adapter RX) |
 | UART_ESP_TX / RX | | ESP32 |
 | ESP_RST / BOOT | GPIO | ESP32 |
 | 3V3 / 5V / GND | header | power |
