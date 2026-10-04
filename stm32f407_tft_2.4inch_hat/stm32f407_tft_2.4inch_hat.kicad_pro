@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -679,7 +679,7 @@
         "uuid": "cc4888af-8d80-46d6-b504-03885496e3b5"
       }
     ],
-    "used_designators": "UART1,J1-3,U1,I2C\\-RealTime1,I2C\\-Sensor1",
+    "used_designators": "R1-2,UART1,J1-3,U1,#PWR1-2,I2C\\-RealTime1,I2C\\-Sensor1",
     "variants": []
   },
   "sheets": [
