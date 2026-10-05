@@ -5624,16 +5624,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 41.91) (xy 223.52 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cffeee7-af7f-4b50-ba9b-5e8c25b058e2")
-	)
-	(wire
-		(pts
 			(xy 170.18 36.83) (xy 190.5 36.83)
 		)
 		(stroke
@@ -5654,6 +5644,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 44.45) (xy 190.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117de992-f1bc-4484-a39b-5b3f5e171ff2")
+	)
+	(wire
+		(pts
 			(xy 96.52 87.63) (xy 74.93 87.63)
 		)
 		(stroke
@@ -5671,16 +5671,6 @@
 			(type default)
 		)
 		(uuid "168482be-1813-4cbe-8a55-eae9872c0051")
-	)
-	(wire
-		(pts
-			(xy 170.18 41.91) (xy 190.5 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16e9ddea-d12a-4672-a267-cce9b2180323")
 	)
 	(wire
 		(pts
@@ -6324,6 +6314,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 41.91) (xy 190.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e16d251-1808-4f56-9905-844d61b5178d")
+	)
+	(wire
+		(pts
 			(xy 109.22 34.29) (xy 127 34.29)
 		)
 		(stroke
@@ -6531,16 +6531,6 @@
 			(type default)
 		)
 		(uuid "b6ad2496-dc9a-4fec-a855-b4d28b4d3ba5")
-	)
-	(wire
-		(pts
-			(xy 190.5 44.45) (xy 170.18 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b81742cb-abac-4bb5-b4d4-1276c2a32b68")
 	)
 	(wire
 		(pts
@@ -6961,6 +6951,16 @@
 			(type default)
 		)
 		(uuid "fd424f6a-96a1-45e9-997c-0d4e043778e8")
+	)
+	(wire
+		(pts
+			(xy 203.2 41.91) (xy 223.52 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb0279a-9467-4b54-940e-46f095ae0069")
 	)
 	(wire
 		(pts
@@ -7643,7 +7643,7 @@
 		(uuid "6419d38d-97ba-4097-9f3b-98f48d95b50b")
 	)
 	(label "DBG_UART2_TX"
-		(at 207.01 41.91 0)
+		(at 175.26 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7993,7 +7993,7 @@
 		(uuid "a2975165-5bd1-4c63-9104-71e1dc92a1f2")
 	)
 	(label "DBG_UART2_RX"
-		(at 186.69 41.91 180)
+		(at 220.98 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
