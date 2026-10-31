@@ -79,6 +79,3 @@ On the ILI9341 module, touch and SD share SPI lines; the schematic uses `LCD_SD_
 | `doc/PCB.jpg` | Assembled HAT with 2.4" LCD (see preview above) |
 | `doc/PCB_3D.png` | KiCad 3D board render (see preview above) |
 
-## BUG
-
-- v1.0: The labels on P1 are incorrect
